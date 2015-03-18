@@ -24,7 +24,7 @@
 	// Freitag
 	} else if($weekday == 5) {
 		$day = 'Freitag';
-		$openstatus = '<span class="open">offen von 17:00 &ndash; 24.00 Uhr</span>';
+		$openstatus = $closed;
 	// Samstag
 	} else if($weekday == 6) {
 		$day = 'Samstag';
